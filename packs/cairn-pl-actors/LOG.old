@@ -1,3 +1,23 @@
-2024/10/30-20:11:57.559808 7fb9c86006c0 Recovering log #75
-2024/10/30-20:11:57.564404 7fb9c86006c0 Delete type=0 #75
-2024/10/30-20:11:57.564447 7fb9c86006c0 Delete type=3 #74
+2024/11/03-18:53:32.508494 7fe303e006c0 Recovering log #79
+2024/11/03-18:53:32.508566 7fe303e006c0 Level-0 table #81: started
+2024/11/03-18:53:32.510325 7fe303e006c0 Level-0 table #81: 487 bytes OK
+2024/11/03-18:53:32.517297 7fe303e006c0 Delete type=0 #79
+2024/11/03-18:53:32.517660 7fe303e006c0 Delete type=3 #78
+2024/11/03-19:17:53.489879 7fe2f66006c0 Level-0 table #84: started
+2024/11/03-19:17:53.489912 7fe2f66006c0 Level-0 table #84: 0 bytes OK
+2024/11/03-19:17:53.492559 7fe2f66006c0 Delete type=0 #82
+2024/11/03-19:17:53.508882 7fe2f66006c0 Manual compaction at level-0 from '!actors!5O9d7kwEbOe1l7yB' @ 72057594037927935 : 1 .. '!folders!d8NLwIamAGH79WCx' @ 0 : 0; will stop at '!folders!d8NLwIamAGH79WCx' @ 91 : 1
+2024/11/03-19:17:53.508898 7fe2f66006c0 Compacting 1@0 + 0@1 files
+2024/11/03-19:17:53.510771 7fe2f66006c0 Generated table #85@0: 1 keys, 487 bytes
+2024/11/03-19:17:53.510809 7fe2f66006c0 Compacted 1@0 + 0@1 files => 487 bytes
+2024/11/03-19:17:53.513971 7fe2f66006c0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/03-19:17:53.514514 7fe2f66006c0 Delete type=2 #81
+2024/11/03-19:17:53.524471 7fe2f66006c0 Manual compaction at level-0 from '!folders!d8NLwIamAGH79WCx' @ 91 : 1 .. '!folders!d8NLwIamAGH79WCx' @ 0 : 0; will stop at (end)
+2024/11/03-19:17:53.532549 7fe2f66006c0 Manual compaction at level-1 from '!actors!5O9d7kwEbOe1l7yB' @ 72057594037927935 : 1 .. '!folders!d8NLwIamAGH79WCx' @ 0 : 0; will stop at '!folders!d8NLwIamAGH79WCx' @ 91 : 1
+2024/11/03-19:17:53.532568 7fe2f66006c0 Compacting 1@1 + 1@2 files
+2024/11/03-19:17:53.539095 7fe2f66006c0 Generated table #86@1: 22 keys, 11077 bytes
+2024/11/03-19:17:53.539140 7fe2f66006c0 Compacted 1@1 + 1@2 files => 11077 bytes
+2024/11/03-19:17:53.544112 7fe2f66006c0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/03-19:17:53.544218 7fe2f66006c0 Delete type=2 #73
+2024/11/03-19:17:53.544319 7fe2f66006c0 Delete type=2 #85
+2024/11/03-19:17:53.544556 7fe2f66006c0 Manual compaction at level-1 from '!folders!d8NLwIamAGH79WCx' @ 91 : 1 .. '!folders!d8NLwIamAGH79WCx' @ 0 : 0; will stop at (end)

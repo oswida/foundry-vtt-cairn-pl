@@ -1,7 +1,7 @@
 {
   "id": "cairn-pl",
   "title": "Cairn PL",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -13,6 +13,9 @@
       "url": "https://pl.cairnrpg.com",
       "flags": {}
     }
+  ],
+  "esmodules": [
+    "./module/cairn-pl.js"
   ],
   "packs": [
     {
