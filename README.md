@@ -1,2 +1,2 @@
 # foundry-vtt-cairn-pl
-Polish content for Cairn on Foundry VTT
+Polish content for Cairn Foundry VTT system.

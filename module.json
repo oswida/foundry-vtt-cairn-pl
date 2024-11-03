@@ -1,0 +1,87 @@
+{
+  "id": "cairn-pl",
+  "title": "Cairn PL",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Oskar Świda",
+      "email": "oskar.swida@gmail.com",
+      "url": "https://pl.cairnrpg.com",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "cairn-pl-items",
+      "label": "Przedmioty",
+      "path": "packs/cairn-pl-items",
+      "type": "Item",
+      "system": "cairn",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cairn-pl-actors",
+      "label": "Aktorzy",
+      "path": "packs/cairn-pl-actors",
+      "type": "Actor",
+      "system": "cairn",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cairn-pl-rules",
+      "label": "Reguły",
+      "path": "packs/cairn-pl-rules",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "cairn-pl-tabele",
+      "label": "Tabele",
+      "path": "packs/cairn-pl-tabele",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "cairn"
+    },
+    {
+      "name": "cairn-pl-makra",
+      "label": "Makra",
+      "path": "packs/cairn-pl-makra",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "cairn"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Cairn PL",
+      "sorting": "a",
+      "color": null,
+      "packs": [
+        "cairn-pl-items",
+        "cairn-pl-actors",
+        "cairn-pl-rules",
+        "cairn-pl-tabele",
+        "cairn-pl-makra"
+      ]
+    }
+  ]
+}
