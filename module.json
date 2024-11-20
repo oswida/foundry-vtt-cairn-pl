@@ -2,6 +2,8 @@
   "id": "cairn-pl",
   "title": "Cairn PL",
   "version": "1.0.1",
+  "manifest":"",
+  "download":"",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
